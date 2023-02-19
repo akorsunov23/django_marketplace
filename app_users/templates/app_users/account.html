@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account (user: {{ account.user.first_name }})</title>
+</head>
+<body>
+<button type="submit"><a href="{% url 'users:logout' %}">Logout</a> </button>
+<br>
+
+    <p>Name: {{ account.user.first_name }}</p>
+
+    <p>Balance: {{ account.balance }}
+    <button type="submit">
+        <a href="{% url 'users:balance' %}">Top up balance</a>
+    </button>
+    </p>
+
+    <p>Status: {{ account.status }}</p>
+    <p>Amount purchases, $: {{ account.amount_purchases }}</p>
+
+</body>
+<header>
+    <button type="submit"><a href="{% url 'marketplace:main' %}">Main page</a> </button>
+</header>
+</html>

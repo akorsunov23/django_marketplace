@@ -1,0 +1,421 @@
+2023-02-13 11:08:21,992 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 11:08:22,312 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 11:09:30,420 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 11:09:30,756 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 11:09:58,544 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 11:09:58,876 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 11:10:04,975 app_users.views INFO     Пользователь akorsunov аутентифицировался на сайте
+2023-02-13 11:10:05,008 django.request ERROR    Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\cache.py", line 63, in _wrapped_view_func
+    add_never_cache_headers(response)
+  File "C:\Python310\lib\site-packages\django\utils\cache.py", line 291, in add_never_cache_headers
+    patch_response_headers(response, cache_timeout=-1)
+  File "C:\Python310\lib\site-packages\django\utils\cache.py", line 282, in patch_response_headers
+    if not response.has_header("Expires"):
+AttributeError: 'NoneType' object has no attribute 'has_header'
+2023-02-13 11:10:19,748 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 11:10:20,079 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 11:10:23,045 app_users.views INFO     Пользователь akorsunov аутентифицировался на сайте
+2023-02-13 11:10:23,067 django.request ERROR    Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\cache.py", line 63, in _wrapped_view_func
+    add_never_cache_headers(response)
+  File "C:\Python310\lib\site-packages\django\utils\cache.py", line 291, in add_never_cache_headers
+    patch_response_headers(response, cache_timeout=-1)
+  File "C:\Python310\lib\site-packages\django\utils\cache.py", line 282, in patch_response_headers
+    if not response.has_header("Expires"):
+AttributeError: 'NoneType' object has no attribute 'has_header'
+2023-02-13 11:11:24,722 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 11:11:25,076 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 11:11:31,565 app_users.views INFO     Пользователь akorsunov аутентифицировался на сайте
+2023-02-13 11:11:31,586 django.request ERROR    Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\cache.py", line 63, in _wrapped_view_func
+    add_never_cache_headers(response)
+  File "C:\Python310\lib\site-packages\django\utils\cache.py", line 291, in add_never_cache_headers
+    patch_response_headers(response, cache_timeout=-1)
+  File "C:\Python310\lib\site-packages\django\utils\cache.py", line 282, in patch_response_headers
+    if not response.has_header("Expires"):
+AttributeError: 'NoneType' object has no attribute 'has_header'
+2023-02-13 12:40:59,660 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 12:41:00,151 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 12:41:03,498 app_users.views INFO     Пользователь akorsunov аутентифицировался на сайте
+2023-02-13 12:41:48,766 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 12:41:49,321 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 12:46:16,571 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\djmarketplace\settings.py changed, reloading.
+2023-02-13 12:46:17,321 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 12:46:47,566 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\djmarketplace\urls.py changed, reloading.
+2023-02-13 12:46:48,211 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 12:46:56,758 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\djmarketplace\urls.py changed, reloading.
+2023-02-13 12:46:57,310 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 12:47:14,036 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\djmarketplace\urls.py changed, reloading.
+2023-02-13 12:47:14,658 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 12:47:50,152 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\djmarketplace\settings.py changed, reloading.
+2023-02-13 12:47:50,713 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 12:48:03,484 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\djmarketplace\settings.py changed, reloading.
+2023-02-13 12:48:04,057 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 12:48:30,240 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\djmarketplace\settings.py changed, reloading.
+2023-02-13 12:48:30,879 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 12:48:45,614 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\djmarketplace\settings.py changed, reloading.
+2023-02-13 12:48:46,237 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 12:56:14,482 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-13 12:56:15,054 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 12:59:12,200 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-13 12:59:12,771 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 12:59:55,898 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-13 12:59:56,527 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:02:46,504 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 13:02:47,481 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:03:28,565 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 13:03:29,042 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:04:14,193 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 13:04:14,906 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:04:15,325 django.request ERROR    Internal Server Error: /user/2/account/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py", line 55, in account
+    return render(request, 'app_users/account.html', context=context)
+  File "C:\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Python310\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Python310\lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Python310\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'Account' object is not iterable
+2023-02-13 13:06:03,387 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 13:06:03,935 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:07:17,031 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 13:07:17,752 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:08:00,781 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 13:08:01,448 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:08:01,866 django.request ERROR    Internal Server Error: /user/2/account/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: account() got an unexpected keyword argument 'pk'
+2023-02-13 13:08:19,336 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\urls.py changed, reloading.
+2023-02-13 13:08:19,911 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:08:20,216 django.request WARNING  Not Found: /user/2/account/
+2023-02-13 13:08:22,154 django.request WARNING  Not Found: /user/2/account/
+2023-02-13 13:09:09,536 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py", line 31, in main_page_view
+    return render(request, 'marketplace/main.html', context=context)
+  File "C:\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Python310\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Python310\lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Python310\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Python310\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'account' with keyword arguments '{'pk': 2}' not found. 1 pattern(s) tried: ['user/account/\\Z']
+2023-02-13 13:10:06,201 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\app_users\views.py changed, reloading.
+2023-02-13 13:10:06,777 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:10:27,151 app_users.views INFO     Пользователь akorsunov пополнил баланс на $150
+2023-02-13 13:14:19,330 marketplace.views INFO     У akorsunov списались баллы (- $369)
+2023-02-13 13:14:19,341 marketplace.views INFO     akorsunov оформил заказ на $369
+2023-02-13 13:16:20,337 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-13 13:16:20,913 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:16:23,794 django.request ERROR    Internal Server Error: /basket/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py", line 35, in basket_view
+    basket = Basket.objects.select_related('product').only('product__name', 'product__price').get(user=request.user.pk)
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+marketplace.models.Basket.DoesNotExist: Basket matching query does not exist.
+2023-02-13 13:16:35,826 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-13 13:16:36,552 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:16:36,929 django.request ERROR    Internal Server Error: /basket/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\db\models\options.py", line 668, in get_field
+    return self.fields_map[field_name]
+KeyError: 'product_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py", line 35, in basket_view
+    basket = Basket.objects.select_related('product').only('product_name', 'product_price').get(user=request.user.pk)
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 646, in get
+    num = len(clone)
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 376, in __len__
+    self._fetch_all()
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1385, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 593, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 71, in pre_sql_setup
+    self.setup_query()
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 62, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 257, in get_select
+    cols = self.get_default_columns()
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 818, in get_default_columns
+    only_load = self.deferred_to_columns()
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1316, in deferred_to_columns
+    self.query.deferred_to_data(columns)
+  File "C:\Python310\lib\site-packages\django\db\models\sql\query.py", line 758, in deferred_to_data
+    field = opts.get_field(parts[-1])
+  File "C:\Python310\lib\site-packages\django\db\models\options.py", line 670, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Basket has no field named 'product_name'
+2023-02-13 13:17:16,251 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-13 13:17:16,742 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:17:17,427 django.request ERROR    Internal Server Error: /basket/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py", line 35, in basket_view
+    basket = Basket.objects.select_related('product').only('product__name', 'product__price').get(user=request.user.pk)
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+marketplace.models.Basket.DoesNotExist: Basket matching query does not exist.
+2023-02-13 13:17:52,599 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-13 13:17:53,178 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:18:58,227 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-13 13:18:58,874 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:18:59,159 django.request ERROR    Internal Server Error: /basket/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py", line 35, in basket_view
+    basket = Basket.objects.select_related('product').only('product__name', 'product__price').get(user=request.user.pk)
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 653, in get
+    raise self.model.MultipleObjectsReturned(
+marketplace.models.Basket.MultipleObjectsReturned: get() returned more than one Basket -- it returned 3!
+2023-02-13 13:19:22,029 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-13 13:19:22,532 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:19:41,637 marketplace.views INFO     У akorsunov списались баллы (- $260)
+2023-02-13 13:19:41,652 marketplace.views INFO     akorsunov оформил заказ на $260
+2023-02-13 13:21:32,879 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-13 13:21:33,450 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:21:45,285 marketplace.views INFO     У akorsunov списались баллы (- $364)
+2023-02-13 13:21:45,297 marketplace.views INFO     akorsunov оформил заказ на $364
+2023-02-13 13:23:20,358 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\djmarketplace\settings.py changed, reloading.
+2023-02-13 13:23:20,939 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:24:04,023 django.utils.autoreload INFO     C:\SkillBox\python_django\16_LoggingAndProfiling\djmarketplace\djmarketplace\settings.py changed, reloading.
+2023-02-13 13:24:04,641 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-13 13:29:17,461 app_users.views INFO     Пользователь akorsunov пополнил баланс на $3000
+2023-02-13 13:29:23,493 marketplace.views INFO     У akorsunov списались баллы (- $2738)
+2023-02-13 13:29:23,552 marketplace.views INFO     akorsunov оформил заказ на $2738
+2023-02-18 12:51:21,163 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 12:51:23,780 django.request WARNING  Not Found: /favicon.ico
+2023-02-18 12:51:47,802 app_users.views INFO     Пользователь admin аутентифицировался на сайте
+2023-02-18 12:51:49,416 django.request ERROR    Internal Server Error: /user/account/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\портфолио\джанго\djmarketplace\app_users\views.py", line 51, in account
+    model = Account.objects.select_related('user').only(
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+app_users.models.Account.DoesNotExist: Account matching query does not exist.
+2023-02-18 12:52:00,484 django.request ERROR    Internal Server Error: /user/account/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\портфолио\джанго\djmarketplace\app_users\views.py", line 51, in account
+    model = Account.objects.select_related('user').only(
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+app_users.models.Account.DoesNotExist: Account matching query does not exist.
+2023-02-18 12:52:09,006 django.request WARNING  Not Found: /app_user/logout
+2023-02-18 13:03:34,144 app_users.views INFO     Пользователь akorsunov аутентифицировался на сайте
+2023-02-18 13:22:43,053 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 13:22:43,590 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 13:23:08,923 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 13:23:09,440 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 13:23:24,185 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 13:23:24,791 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 13:25:04,253 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 13:25:04,797 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 13:25:27,866 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 13:25:28,457 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 13:25:33,877 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 13:25:34,440 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:00:09,690 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:03:03,060 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:03:03,540 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:03:13,075 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:03:13,705 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:05:53,619 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:05:54,265 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:06:03,826 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:06:04,579 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:06:59,028 marketplace.views INFO     У akorsunov списались баллы (- $45)
+2023-02-18 21:06:59,039 marketplace.views INFO     akorsunov оформил заказ на $45
+2023-02-18 21:23:12,039 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:23:12,652 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:24:45,222 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:24:45,861 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:25:14,076 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:25:14,565 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:25:31,318 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:25:31,858 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:25:41,366 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:25:41,937 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:25:59,790 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:26:00,352 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:26:37,265 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:26:37,879 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:26:51,600 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:26:52,220 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:28:15,682 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:28:16,254 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:28:28,926 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:28:29,594 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:29:15,551 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:29:16,109 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:29:17,358 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\портфолио\джанго\djmarketplace\marketplace\views.py", line 29, in main_page_view
+    paginator = Paginator(product, orphans=5)
+TypeError: Paginator.__init__() missing 1 required positional argument: 'per_page'
+2023-02-18 21:29:36,186 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:29:36,806 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:31:45,637 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:31:46,202 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:31:55,782 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:31:56,333 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:32:05,919 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:32:06,498 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:32:20,156 django.utils.autoreload INFO     C:\портфолио\джанго\djmarketplace\marketplace\views.py changed, reloading.
+2023-02-18 21:32:20,742 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-02-18 21:38:08,942 marketplace.views INFO     У akorsunov списались баллы (- $373)
+2023-02-18 21:38:08,963 marketplace.views INFO     akorsunov оформил заказ на $373
+2023-02-18 21:38:25,540 marketplace.views INFO     У akorsunov списались баллы (- $174)
+2023-02-18 21:38:25,552 marketplace.views INFO     akorsunov оформил заказ на $174
+2023-02-18 23:24:50,888 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\портфолио\джанго\djmarketplace\marketplace\views.py", line 20, in main_page_view
+    user = User.objects.get(pk=request.user.pk)
+  File "C:\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-02-18 23:26:04,766 app_users.views INFO     Пользователь akorsunov аутентифицировался на сайте
+2023-02-18 23:26:15,508 marketplace.views INFO     У akorsunov списались баллы (- $239)
+2023-02-18 23:26:15,520 marketplace.views INFO     akorsunov оформил заказ на $239
+2023-02-18 23:28:37,812 app_users.views INFO     Пользователь akorsunov пополнил баланс на $1000

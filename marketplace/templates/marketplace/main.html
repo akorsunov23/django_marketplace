@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product list (user: {{ request.user.username }})</title>
+        <style type="text/css">
+       body { margin: 0; }
+       #sidebar, #content { position: absolute; }
+       #sidebar, #content { overflow: auto; padding: 10px; }
+       #header {
+            height: 80px;
+            border-bottom: 2px solid #7B5427;
+            text-align: center;
+       }
+       #header h1 {
+            padding: 20px;
+            margin: 0;
+       }
+       #sidebar {
+            width: 150px;
+            border-right: 1px solid #231F20;
+            top: 82px;
+            bottom: 0;
+       }
+       #content {
+            top: 82px;
+            left: 170px;
+            bottom: 0; right: 0;
+       }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<div id="header"><h1>Product list:</h1></div>
+<div id="sidebar">
+<p style="text-align: center"><button type="submit"><a href="{% url 'users:register' %}">Registrations</a> </button></p>
+    {% if request.user.is_authenticated %}
+        <p style="text-align: center"><button type="submit"><a href="{% url 'users:account' %}">Account</a> </button></p>
+        <p style="text-align: center"><button type="submit"><a href="{% url 'marketplace:basket' %}">Basket</a></button></p>
+        <p style="text-align: center"><button type="submit"><a href="{% url 'marketplace:sales_report' %}">Sales report</a></button></p>
+    {% else %}
+        <p style="text-align: center"><button type="submit"><a href="{% url 'users:login' %}">Login</a> </button></p>
+    {% endif %}
+<hr>
+    <nav class="pagination" style="text-align: center">
+        <span class="step-links">
+            {% if page_obj.has_previous %}
+                <a href="?page={{ page_obj.previous_page_number }}"><<<</a>
+            {% endif %}
+            <span class="current">
+                Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            </span>
+            {% if page_obj.has_next %}
+                <a href="?page={{ page_obj.next_page_number }}">>>></a>
+            {% endif %}
+        </span>
+    </nav>
+</div>
+<body>
+<div id="content">
+
+{% for product in page_obj %}
+    {% for shop in product.shop.all %}
+        <b>Name: {{ product.name }}</b>
+        <ul>
+            <li>Price: ${{ product.price }}</li>
+            <li>Shop: {{ shop.name }}</li>
+
+        </ul>
+        {% if request.user.is_authenticated %}
+        <form method="post">
+            {% csrf_token %}
+            <button type="submit" name="id_product" value="{{ product.pk }}">Add to Basket</button>
+        </form>
+        {% endif %}
+        <hr>
+    {% endfor %}
+{% endfor %}
+
+</div>
+
+</body>
+
+</html>

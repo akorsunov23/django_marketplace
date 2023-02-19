@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Balance replenishments</title>
+</head>
+<body>
+<h3>How much to replenish the balance?</h3>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Top up</button>
+</form>
+</body>
+</html>

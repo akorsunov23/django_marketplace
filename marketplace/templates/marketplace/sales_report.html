@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sales report</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td>Product ID</td>
+        <td>Product name</td>
+        <td>Quantity sold</td>
+    </tr>
+    {% for product in products %}
+    <tr>
+        <td>{{ product.pk }}</td>
+        <td>{{ product.name }}</td>
+        <td>{{ product.quantity_sold }}</td>
+    </tr>
+    {% endfor %}
+</table>
+<br>
+<button type="submit"><a href="{% url 'marketplace:main' %}">Main page</a> </button>
+</body>
+</html>

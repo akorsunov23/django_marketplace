@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basket (user: {{ request.user.username }})</title>
+</head>
+<body>
+<h1>Products in basket:</h1>
+
+{% if basket %}
+    {% for product in basket %}
+        <p>Name: {{ product.product.name }}, price: ${{ product.product.price }}</p>
+    {% endfor %}
+    <h2>Order price: ${{ order_price }} </h2>
+    <form method="post">
+    {% csrf_token %}
+    <button type="submit">Checkout</button>
+</form>
+
+{% else %}
+    <h4>Basket is empty!</h4>
+{% endif %}
+
+</body>
+
+<br>
+<button type="submit"><a href="{% url 'marketplace:main' %}">Main page</a> </button>
+</html>
